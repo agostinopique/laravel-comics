@@ -1,0 +1,19 @@
+@mixin listItems(){
+    list-style: none;
+}
+
+@mixin aLink(){
+    text-decoration: none;
+}
+
+@mixin displayCenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin alignCenter(){
+    display: flex;
+    align-items: center;
+}
+
