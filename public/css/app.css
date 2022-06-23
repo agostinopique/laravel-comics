@@ -124,6 +124,7 @@ main .loadMore a {
 }
 
 .footer-top {
+  background-image: url(/images/dc-logo.png?373bd08188499507ec9f6eff4c1d7b4f);
   background-position: center;
   background-size: cover;
 }
@@ -134,6 +135,7 @@ main .loadMore a {
 }
 
 .footer-logo {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
   background-position: center;
   background-size: cover;
 }

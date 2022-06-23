@@ -1,6 +1,6 @@
 <footer>
 
-    {{--
+
     <div class="footer-top">
         <div class="container d-flex">
             <div class="list-section w-50 d-flex flex-wrap pt-3">
@@ -47,7 +47,7 @@
             <div class="footer-logo w-50"></div>
         </div>
     </div>
-    --}}
+
 
 
     <div class="footer-bottom">
@@ -60,27 +60,27 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-facebook.png" alt="dc-facebook">
+                            <img src="{{asset('img/footer-facebook.png')}}" alt="dc-facebook">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-twitter.png" alt="dc-twitter">
+                            <img src="{{asset('img/footer-twitter.png')}}" alt="dc-twitter">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-youtube.png" alt="dc-youtube">
+                            <img src="{{asset('img/footer-youtube.png')}}" alt="dc-youtube">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-pinterest.png" alt="dc-pinterest">
+                            <img src="{{asset('img/footer-pinterest.png')}}" alt="dc-pinterest">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-periscope.png" alt="dc-periscope">
+                            <img src="{{asset('img/footer-periscope.png')}}" alt="dc-periscope">
                         </a>
                     </li>
                 </ul>
