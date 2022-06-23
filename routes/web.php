@@ -13,12 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.main');
-})->name('main');
 
-
-Route::get('/comics', function(){
+Route::get('/', function(){
 
     $data = config('comics');
 

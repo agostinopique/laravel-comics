@@ -18,7 +18,6 @@ header {
   width: 100px;
   padding: 10px;
 }
-
 .logo img {
   width: 100%;
 }
@@ -34,7 +33,6 @@ ul {
   align-items: center;
   margin-bottom: none;
 }
-
 ul .header-li a {
   text-decoration: none;
   display: inline-block;
@@ -43,15 +41,14 @@ ul .header-li a {
   border-bottom: 4px solid white;
   color: black;
 }
-
-ul .header-li a.active,
-ul .header-li a:hover {
+ul .header-li a.active, ul .header-li a:hover {
   border-color: #0582F9;
   color: #0582F9;
 }
 
 .jumbotron {
   height: 350px;
+  background-image: url("../img/jumbotron.jpg");
   background-color: lightblue;
   background-size: cover;
 }
@@ -60,21 +57,17 @@ ul .header-li a:hover {
   height: 280px;
   padding: 15px;
 }
-
 .card-box .card-container {
   width: 160px;
 }
-
 .card-box .cardItem {
   height: 160px;
   border-radius: 3px;
   overflow: hidden;
 }
-
 .card-box .cardItem img {
   width: 100%;
 }
-
 .card-box .comic-title {
   display: inline-block;
   text-transform: uppercase;
@@ -84,7 +77,6 @@ ul .header-li a:hover {
 main {
   background-color: #1C1C1C;
 }
-
 main .container {
   padding: 80px 0;
   display: flex;
@@ -93,7 +85,6 @@ main .container {
   flex-wrap: wrap;
   position: relative;
 }
-
 main .currentSeries {
   background-color: #0582F9;
   padding: 8px 25px 4px 25px;
@@ -102,11 +93,9 @@ main .currentSeries {
   left: 0;
   border-right: 1px solid black;
 }
-
 main .currentSeries h3 {
   text-transform: uppercase;
 }
-
 main .loadMore {
   background-color: #0582F9;
   padding: 8px 45px;
@@ -116,7 +105,6 @@ main .loadMore {
   left: 50%;
   transform: translate(-50%);
 }
-
 main .loadMore a {
   text-decoration: none;
   text-transform: uppercase;
@@ -124,7 +112,6 @@ main .loadMore a {
 }
 
 .footer-top {
-  background-image: url(/images/dc-logo.png?373bd08188499507ec9f6eff4c1d7b4f);
   background-position: center;
   background-size: cover;
 }
@@ -135,7 +122,7 @@ main .loadMore a {
 }
 
 .footer-logo {
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url("../img/dc-logo-bg.png");
   background-position: center;
   background-size: cover;
 }
@@ -144,7 +131,6 @@ main .loadMore a {
   list-style: none;
   color: #868776;
 }
-
 .list-section ul li {
   text-transform: capitalize;
   font-size: 14px;
@@ -187,9 +173,7 @@ main .loadMore a {
   display: flex;
   margin: 0;
 }
-
 .dc-social ul a {
   text-decoration: none;
   margin: 0 8px;
 }
-

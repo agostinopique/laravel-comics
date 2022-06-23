@@ -11,8 +11,11 @@
         </div>
         {{-- @include('cardComponent'); --}}
 
+
+
         @foreach($comics as $comic)
         <div class="card-box">
+
             <div class="card-container">
                 <div class="cardItem">
                     <img src="{{$comic->image}}" alt="{{$comic->title}}">
