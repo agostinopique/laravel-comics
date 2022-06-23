@@ -1,0 +1,201 @@
+@import './partials/general';
+@import './partials/mixins';
+@import './partials/vars';
+
+// HEADER
+header{
+    height: 100px;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    img{
+      width: 100%;
+    }
+  }
+
+  nav{
+    @include alignCenter;
+  }
+
+  ul{
+    @include listItems;
+    @include alignCenter;
+    margin-bottom: none;
+
+    .header-li a{
+      @include aLink();
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 37px 15px 35px 15px;
+      border-bottom: 4px solid white;
+      color: black;
+
+      &.active,
+      &:hover{
+        border-color: $dc-blue;
+        color: $dc-blue;
+      }
+    }
+  }
+// /HEADER
+
+// MAIN
+
+// JUMBOTRON
+.jumbotron{
+    height: 350px;
+    // background-image: url(../assets/img/jumbotron.jpg);
+    background-color: lightblue;
+    background-size: cover;
+}
+// /JUMBOTRON
+
+// CARD
+
+.card-box{
+    height: 280px;
+    padding: 15px;
+    .card-container{
+        width: 160px;
+    }
+    .cardItem{
+        height: 160px;
+        border-radius: 3px;
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+    }
+    .comic-title{
+        display: inline-block;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+}
+// /CARD
+
+main{
+    background-color: #1C1C1C;
+    .container{
+        padding: 80px 0;
+        @include displayCenter;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .currentSeries{
+        background-color: $dc-blue;
+        padding: 8px 25px 4px 25px;
+        position: absolute;
+        top: -22px;
+        left: 0;
+        border-right: 1px solid black;
+        h3{
+            text-transform: uppercase;
+        }
+    }
+    .loadMore{
+        background-color: $dc-blue;
+        padding: 8px 45px;
+        width: 200px;
+        position: relative;
+        bottom: 40px;
+        left: 50%;
+        transform: translate(-50%);
+        a{
+            @include aLink;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+// /MAIN
+
+
+// FOOTER
+
+.footer-top {
+    // background-image: url(../assets/img/footer-bg.jpg); IMMAGINE ASSENTE
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-bottom{
+    background-color: #303030;
+    height: 100px;
+}
+
+// FOOTER TOP
+
+
+.footer-logo{
+    // background-image: url(../assets/img/dc-logo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.list-section ul{
+    @include listItems;
+    color: #868776;
+    li{
+        text-transform: capitalize;
+        font-size: 14px;
+        padding: 3px 0;
+    }
+}
+
+.first-list ul{
+    padding-left: 0;
+}
+
+
+// /FOOTER TOP
+
+
+// FOOTER BOTTOM
+
+
+.container {
+
+    @include alignCenter;
+    justify-content: space-between;
+}
+.footer-container{
+    height: 100px;
+}
+.cta-button a{
+    @include aLink;
+    padding: 10px;
+    color: white;
+    border: 2px solid $dc-blue;
+}
+
+.dc-social {
+    @include alignCenter;
+}
+
+.dc-social h3{
+    color: $dc-blue;
+    margin-bottom: 0;
+}
+
+.dc-social ul{
+    @include listItems;
+    display: flex;
+    margin: 0;
+
+    & a{
+        @include aLink;
+        margin: 0 8px;
+    }
+}
+
+// /FOOTER BOTTOM
+// /FOOTER

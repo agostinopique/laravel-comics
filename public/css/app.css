@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: none;
+}
+
+ul .header-li a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 37px 15px 35px 15px;
+  border-bottom: 4px solid white;
+  color: black;
+}
+
+ul .header-li a.active,
+ul .header-li a:hover {
+  border-color: #0582F9;
+  color: #0582F9;
+}
+
+.jumbotron {
+  height: 350px;
+  background-color: lightblue;
+  background-size: cover;
+}
+
+.card-box {
+  height: 280px;
+  padding: 15px;
+}
+
+.card-box .card-container {
+  width: 160px;
+}
+
+.card-box .cardItem {
+  height: 160px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card-box .cardItem img {
+  width: 100%;
+}
+
+.card-box .comic-title {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+main {
+  background-color: #1C1C1C;
+}
+
+main .container {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+main .currentSeries {
+  background-color: #0582F9;
+  padding: 8px 25px 4px 25px;
+  position: absolute;
+  top: -22px;
+  left: 0;
+  border-right: 1px solid black;
+}
+
+main .currentSeries h3 {
+  text-transform: uppercase;
+}
+
+main .loadMore {
+  background-color: #0582F9;
+  padding: 8px 45px;
+  width: 200px;
+  position: relative;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+main .loadMore a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-top {
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 100px;
+}
+
+.footer-logo {
+  background-position: center;
+  background-size: cover;
+}
+
+.list-section ul {
+  list-style: none;
+  color: #868776;
+}
+
+.list-section ul li {
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.first-list ul {
+  padding-left: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container {
+  height: 100px;
+}
+
+.cta-button a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border: 2px solid #0582F9;
+}
+
+.dc-social {
+  display: flex;
+  align-items: center;
+}
+
+.dc-social h3 {
+  color: #0582F9;
+  margin-bottom: 0;
+}
+
+.dc-social ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.dc-social ul a {
+  text-decoration: none;
+  margin: 0 8px;
+}
+
