@@ -21,3 +21,6 @@ Route::get('/', function(){
     return view('comics', ['comics' => $data]);
 })->name('comics');
 
+Route::get('/home', function() {
+    return view('home');
+})->name('home');
